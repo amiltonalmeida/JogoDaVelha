@@ -1,7 +1,7 @@
 #jogo{
     width:603px;
     height:600px;
-    border:solid 3px
+    border:solid 3px;
 }
  
 .linha{
@@ -23,9 +23,35 @@
     width: 100%;
 }
 
-div{
-    background-image: 
+body{
+    display: flex;
+    align-content: center;
 }
 
+.botaoX{
+    width: 40%;
+    height: 40%;
+    background-color: red;
+    font-size: 50pt;
+    border: 10%;
+    cursor: pointer;
+}
 
+.botaoO{
+    background-color: aquamarine;
+    width: 40%;
+    height: 40%;
+    font-size: 50pt;
+}
 
+.casa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#casa1,#casa3,#casa5,#casa7,#casa9{
+    background-color: palevioletred;
+}
+#casa2,#casa4,#casa6,#casa8{
+    background-color: yellow;
+}
